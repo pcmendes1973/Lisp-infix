@@ -3,12 +3,12 @@ Lisp package to implement infix operators in Lisp
 
 The Infix package contains code to parse infix expressions in Common Lisp. The end goal is to make it easier to write infix expressions in general and math formulas in particular. The code allows users to write infix expressions between 2 macro characters and obtain a result. Using the default settings, the operands may be vectors or numbers; e.g.:
 
-```
+```lisp
 ? #[#(2 3) + #(4 3)]
   #(5 5)
 ```
 or
-```
+```lisp
 ? #[#(2 3) * 3]
   #(6 9)
 ```
